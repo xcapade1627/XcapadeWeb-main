@@ -1,0 +1,41 @@
+.hayward-footer {
+  padding: 60px 0px;
+  background: #5d5e5e;
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 3px 0px;
+    margin-bottom: 0;
+    color: #fff;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    @media (max-width: 576px) {
+      justify-content: center;
+      margin-top: 20px;
+    }
+    li {
+      list-style-type: none;
+      margin-left: 15px;
+
+      a {
+        display: block;
+        height: 30px;
+        width: 30px;
+        line-height: 29px;
+        border-radius: 50%;
+        color: #fff;
+        border: 1px solid #e5e5e5;
+        font-size: 14px;
+        text-align: center;
+
+        @media (max-width: 576px) {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

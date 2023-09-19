@@ -1,0 +1,69 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Poppins Regular'),
+    url('poppins/poppins-regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Poppins Bold'),
+    url('poppins/poppins-bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local('Poppins Light'),
+    url('poppins/poppins-light.ttf') format('truetype')
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Post No Bills';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Post No Bills Colombo Regular'),
+    url('post-no-bills/postnobillscolombo-regular.ttf') format('truetype')
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Post No Bills';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local('Post No Bills Colombo SemiBold'),
+    url('post-no-bills/postnobillscolombo-semibold.ttf') format('truetype')
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Post No Bills';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Post No Bills Colombo Bold'),
+    url('post-no-bills/postnobillscolombo-bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Post No Bills';
+  font-style: normal;
+  font-weight: 800;
+  src:
+    local('Post No Bills Colombo extraBold'),
+    url('post-no-bills/postnobillscolombo-extrabold.ttf') format('truetype')
+}

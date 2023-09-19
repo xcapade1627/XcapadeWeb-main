@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-size: 17px;
+  font-family: Poppins;
+
+  @media (max-width: 900px) {
+    font-size: 13px;
+  }
+}
+
+#root {
+  max-width: 100vw;
+
+  * {
+    font-family: Poppins;
+  }
+
+  #hayward {
+    position: relative;
+    font-family: Barlow, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #5d5e5e;
+    background: #fff;
+
+    * {
+      font-family: Barlow, sans-serif;
+    }
+
+    .MuiContainer-root {
+      @media (min-width: 576px) {
+        max-width: 540px;
+      }
+
+      @media (min-width: 768px) {
+        max-width: 720px;
+      }
+
+      @media (min-width: 992px) {
+        max-width: 960px;
+      }
+
+      @media (min-width: 1200px) {
+        max-width: 1140px;
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p.MuiTypography-root {
+  font-family: Poppins;
+}
+
+i {
+  font-family: FontAwesome !important;
+}

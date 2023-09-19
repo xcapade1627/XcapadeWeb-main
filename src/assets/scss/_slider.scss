@@ -1,0 +1,22 @@
+.banner-slider.swiper {
+  .swiper-wrapper {
+    .swiper-slide {
+      min-height: 648px;
+    }
+  }
+
+  .swiper-pagination {
+    margin-bottom: 30px;
+
+    .swiper-pagination-bullet {
+      width: 48px;
+      height: 4px;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.5);
+
+      &.swiper-pagination-bullet-active {
+        background-color: white !important;
+      }
+    }
+  }
+}

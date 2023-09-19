@@ -1,0 +1,55 @@
+.hayward-contact {
+  background: #fcf9ff;
+  padding: 120px 0px 65px;
+
+  @media (max-width: 1440px) {
+    padding: 120px 0px 40px;
+  }
+  @media (max-width: 1024px) {
+    padding: 120px 0px 30px;
+  }
+  @media (max-width: 567px) {
+    padding: 120px 0px 20px;
+  }
+
+  .contact-info {
+    margin-bottom: 50px;
+    height: 495px;
+    padding: 30px 15px;
+    background: #fcf9ff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05);
+
+    @media (max-width: 991px) {
+      height: auto;
+    }
+    @media (max-width: 580px) {
+      height: unset;
+    }
+
+    h3 {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    p {
+      margin-bottom: 0;
+
+      span {
+        display: block;
+      }
+      @media (max-width: 991px) {
+        margin-bottom: 10px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+#circle-example {
+  height: 325px;
+  margin-top: 30px;
+  width: 100%;
+}
