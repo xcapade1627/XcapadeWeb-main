@@ -4,7 +4,7 @@ import 'react-image-lightbox/style.css'
 
 const protocol = 'https'
 // photoCount values: 3 - 12
-const photoCount = 9
+const photoCount = 27
 // photoSize values: 'small' (200 pixels wide) or 'large' (est 1024 pixels wide)
 const photoSize = 'large'
 const subdomain = 'xcapade951'
