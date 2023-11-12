@@ -21,7 +21,7 @@ const themes = [
   {
     type: 'Kids Land',
     title: 'Pixel Planet',
-    players: '4-10',
+    players: '2-6',
     time: '1.5 hour',
     difficulty: '3.5/5',
     description: 'NPCs in the Room!',

@@ -9,13 +9,13 @@ import slider1 from '../../assets/img/sliders/aloneslider.png'
 import slider2 from '../../assets/img/sliders/pixelslider.jpeg'
 import slider3 from '../../assets/img/sliders/Spiritualism.jpg'
 import slider4 from '../../assets/img/sliders/Homunculus.jpg'
-import slider5 from '../../assets/img/sliders/thanksgiving.png'
+import slider5 from '../../assets/img/sliders/thanksgiving2.png'
 
 const sliders = [
   {
     title: 'Up to 40% off',
     img: slider5,
-    description: ' ',
+    description: '',
     link: 'https://fareharbor.com/embeds/book/xcapade/items/500809/?full-items=yes&flow=19606',
   },
   {
