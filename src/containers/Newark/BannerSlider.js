@@ -13,7 +13,7 @@ import slider5 from '../../assets/img/sliders/thanksgiving.png'
 
 const sliders = [
   {
-    title: ' ',
+    title: 'Up to 40% off',
     img: slider5,
     description: ' ',
     link: 'https://fareharbor.com/embeds/book/xcapade/items/500809/?full-items=yes&flow=19606',
