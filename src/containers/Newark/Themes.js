@@ -19,11 +19,11 @@ const themes = [
     link: 'https://fareharbor.com/embeds/book/xcapade/items/430000/?full-items=yes&flow=895458',
   },
   {
-    type: 'Kids Land',
+    type: 'Amusement Land',
     title: 'Pixel Planet',
     players: '2-6',
     time: '1.5 hour',
-    difficulty: '3.5/5',
+    difficulty: '3/5',
     description: 'NPCs in the Room!',
     img: themeImg2,
     link: 'https://fareharbor.com/embeds/book/xcapade/items/440595/?full-items=yes&flow=895458',
