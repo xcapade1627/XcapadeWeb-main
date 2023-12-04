@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from '@mui/material'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination } from 'swiper'
+import { Autoplay, Pagination } from 'swiper'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -53,7 +53,15 @@ const BannerSlider = () => {
   }
 
   return (
-    <Swiper pagination={pagination} modules={[Pagination]} className="banner-slider">
+    <Swiper
+      pagination={pagination}
+      modules={[Autoplay, Pagination]}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      className="banner-slider"
+    >
       {sliders.map((slider, index) => (
         <SwiperSlide key={index}>
           <Box
