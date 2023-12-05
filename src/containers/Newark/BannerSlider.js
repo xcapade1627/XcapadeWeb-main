@@ -9,11 +9,11 @@ import slider1 from '../../assets/img/sliders/aloneslider.png'
 import slider2 from '../../assets/img/sliders/pixelslider.jpeg'
 import slider3 from '../../assets/img/sliders/Spiritualism.jpg'
 import slider4 from '../../assets/img/sliders/Homunculus.jpg'
-import slider5 from '../../assets/img/sliders/thanksgiving2.png'
+import slider5 from '../../assets/img/sliders/Epic_deal.jpg'
 
 const sliders = [
   {
-    title: 'Up to 40% off',
+    title: 'Tickets Sales! $45 for a value of up to $75',
     img: slider5,
     description: '',
     link: 'https://fareharbor.com/embeds/book/xcapade/items/500809/?full-items=yes&flow=19606',
@@ -57,7 +57,7 @@ const BannerSlider = () => {
       pagination={pagination}
       modules={[Autoplay, Pagination]}
       autoplay={{
-        delay: 2500,
+        delay: 4500,
         disableOnInteraction: false,
       }}
       className="banner-slider"
@@ -120,8 +120,8 @@ const BannerSlider = () => {
                   variant="outlined"
                   color="error"
                   sx={{
-                    color: 'white',
-                    borderColor: 'white',
+                    color: 'red',
+                    borderColor: 'red',
                     borderRadius: 6,
                     textTransform: 'capitalize',
                     mt: 6,
