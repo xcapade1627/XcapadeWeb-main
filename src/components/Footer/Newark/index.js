@@ -30,7 +30,7 @@ const Footer = () => {
                 Email
               </Typography>
               <Typography sx={{ color: '#2787CC', mt: 2, fontSize: { md: '17px', xs: '13px' } }}>
-                info@xcapde.co
+                info@xcapade.co
               </Typography>
             </Grid>
           </Grid>
