@@ -13,7 +13,7 @@ import slider5 from '../../assets/img/sliders/Epic_deal.jpg'
 
 const sliders = [
   {
-    title: 'Tickets Sales! $45 for a value of up to $75',
+    title: 'Tickets Sales!       $45 for a value of up to $75',
     img: slider5,
     description: '',
     link: 'https://fareharbor.com/embeds/book/xcapade/items/500809/?full-items=yes&flow=19606',

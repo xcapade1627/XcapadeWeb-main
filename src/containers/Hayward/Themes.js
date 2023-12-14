@@ -8,17 +8,6 @@ import offer5 from '../../assets/img/themes/hayward/5.jpg'
 import offer6 from '../../assets/img/themes/hayward/6.jpg'
 
 const themes = [
-  {
-    title: 'Hunting Lodge',
-    country: 'Mind-Bending',
-    newPrice: 'Difficulty: 4.5/5',
-    length: '1 hour',
-    headCount: '2-8 players',
-    image: offer1,
-    isActive: true,
-    bookLink: 'https://fareharbor.com/embeds/book/xcapade/items/29869/?full-items=yes&flow=895454',
-    bookText: 'Book Now',
-  },
   
   {
     title: 'Seven Days in Captivity',
@@ -29,6 +18,17 @@ const themes = [
     image: offer6,
     isActive: true,
     bookLink: 'https://fareharbor.com/embeds/book/xcapade/items/384309/?full-items=yes&flow=895454',
+    bookText: 'Book Now',
+  },
+  {
+    title: 'Hunting Lodge',
+    country: 'Mind-Bending',
+    newPrice: 'Difficulty: 4.5/5',
+    length: '1 hour',
+    headCount: '2-8 players',
+    image: offer1,
+    isActive: false,
+    bookLink: 'https://fareharbor.com/embeds/book/xcapade/items/29869/?full-items=yes&flow=895454',
     bookText: 'Book Now',
   },
   {
