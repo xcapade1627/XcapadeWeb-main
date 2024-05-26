@@ -36,7 +36,7 @@ const themes = [
     difficulty: '3.5/5',
     description: 'NPCs in the Room!',
     img: themeImg3,
-    link: 'https://fareharbor.com/embeds/book/xcapade/items/440597/?full-items=yes&flow=895458',
+    link: '#',
   },
   {
     type: 'Interactive Drama',

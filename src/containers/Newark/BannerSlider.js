@@ -9,15 +9,14 @@ import slider1 from '../../assets/img/sliders/aloneslider.png'
 import slider2 from '../../assets/img/sliders/pixelslider.jpeg'
 import slider3 from '../../assets/img/sliders/Spiritualism.jpg'
 import slider4 from '../../assets/img/sliders/Homunculus.jpg'
-import slider5 from '../../assets/img/sliders/Epic_deal.jpg'
 
 const sliders = [
   {
-    title: 'Tickets Sales!       $45 for a value of up to $75',
-    img: slider5,
-    description: '',
-    link: 'https://fareharbor.com/embeds/book/xcapade/items/500809/?full-items=yes&flow=19606',
-  },
+    title: 'Homunculus',
+    img: slider4,
+    description: 'Monsters in the Flask',
+    link: 'https://fareharbor.com/embeds/book/xcapade/items/489668/?full-items=yes&flow=895458',
+  },  
   {
     title: 'ALONE',
     img: slider1,
@@ -36,12 +35,7 @@ const sliders = [
     description: 'Explore the darkest secret within the soul of Winnie',
     link: 'https://fareharbor.com/embeds/book/xcapade/items/440597/?full-items=yes&flow=895458',
   },
-  {
-    title: 'Homunculus',
-    img: slider4,
-    description: 'Monsters in the Flask',
-    link: 'https://fareharbor.com/embeds/book/xcapade/items/489668/?full-items=yes&flow=895458',
-  },
+  
 ]
 
 const BannerSlider = () => {
