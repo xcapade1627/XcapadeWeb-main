@@ -2,7 +2,7 @@ import { Box, Button, Grid, Typography } from '@mui/material'
 import { ICONS } from '../../components/Icons'
 
 const ThemeCard = (props) => {
-  const { type, title, players, time, difficulty, description, img, link } = props
+  const { type, title, players, time, difficulty, description, img, link, book } = props
   return (
     <Box
       sx={{
@@ -77,7 +77,7 @@ const ThemeCard = (props) => {
                 height: '40px',
               }}
             >
-              Book
+              {book}
             </Button>
           </a>
         </Grid>

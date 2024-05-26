@@ -17,6 +17,7 @@ const themes = [
     description: 'No NPC',
     img: themeImg1,
     link: 'https://fareharbor.com/embeds/book/xcapade/items/430000/?full-items=yes&flow=895458',
+    book: 'Book',
   },
   {
     type: 'Amusement Land',
@@ -27,6 +28,7 @@ const themes = [
     description: 'NPCs in the Room!',
     img: themeImg2,
     link: 'https://fareharbor.com/embeds/book/xcapade/items/440595/?full-items=yes&flow=895458',
+    book: 'Book',
   },
   {
     type: 'Horror & Mysterious',
@@ -37,6 +39,7 @@ const themes = [
     description: 'NPCs in the Room!',
     img: themeImg3,
     link: '#',
+    book: 'Coming Soon',
   },
   {
     type: 'Interactive Drama',
@@ -47,6 +50,7 @@ const themes = [
     description: 'NPCs in the Room!',
     img: themeImg4,
     link: 'https://fareharbor.com/embeds/book/xcapade/items/489668/?full-items=yes&flow=895458',
+    book: 'Book',
   },
 ]
 
