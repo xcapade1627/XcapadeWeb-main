@@ -6,17 +6,17 @@ import { Background, Banners, LOGO } from '../../components/Icons'
 
 const BannerList = [
   {
-    title: 'Hayward, CA',
-    link: './hayward',
+    title: 'Newark, CA',
+    link: './newark',
     img: Banners[0],
   },
   {
-    title: 'Newark, CA',
-    link: './newark',
+    title: 'Fremont, CA(coming soon)',
+    link: '',
     img: Banners[1],
   },
   {
-    title: 'Murder Mystery Larping',
+    title: 'Mystery LARP',
     link: 'https://www.mm.xcapade.co/?lang=en',
     img: Banners[2],
   },
