@@ -11,7 +11,7 @@ const BannerList = [
     img: Banners[0],
   },
   {
-    title: 'Fremont, CA(coming soon)',
+    title: 'Fremont, CA (coming soon)',
     link: '',
     img: Banners[1],
   },
